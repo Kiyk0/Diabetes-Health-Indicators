@@ -44,9 +44,6 @@ Each model was evaluated using the following metrics:
 ## How to Run
 
 ```bash
-# Install dependencies
-pip install -r requirements.txt
-
 # Run the notebook
 jupyter notebook diabetes_model_comparison.ipynb
 ```
@@ -61,7 +58,3 @@ jupyter notebook diabetes_model_comparison.ipynb
 ---
 
 Feel free to contribute or raise issues!
-
-## License
-
-MIT License
