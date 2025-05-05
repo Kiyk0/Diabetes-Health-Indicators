@@ -10,7 +10,7 @@ The following classification models were tested:
 * **Decision Tree (DT)**
 * **Random Forest (RF)**
 * **K-Nearest Neighbors (KNN)**
-* **Support Vector Classifier (SVC)**
+* **Naïve Bayes (NB)**
 
 ## Dataset
 
@@ -39,7 +39,7 @@ Each model was evaluated using the following metrics:
 * **Decision Tree**: Performed well with tunable depth; benefited from balancing precision and recall. Slightly prone to overfitting.
 * **Random Forest**: Achieved high accuracy and stability, especially after hyperparameter tuning. Performed best in terms of balanced performance.
 * **K-Nearest Neighbors**: Moderate performance, sensitive to data scaling and number of neighbors.
-* **Support Vector Classifier (SVC)**: High precision but suffered in recall. Best used when false positives are more costly.
+* **Naïve Bayes**: Provided fast computation and worked well with high-dimensional data. However, performance was limited due to the assumption of feature independence.
 
 ## How to Run
 
@@ -50,7 +50,7 @@ jupyter notebook diabetes_model_comparison.ipynb
 
 ## Future Improvements
 
-* Further hyperparameter tuning for SVC and KNN
+* Further hyperparameter tuning for Naïve Bayes and KNN
 * Feature selection to reduce noise
 * Ensemble model combining top performers
 * Deploy the best model using Flask or FastAPI
